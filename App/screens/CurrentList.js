@@ -20,7 +20,7 @@ export default() => {
           <ListItem
         name={item.name}
         onFavoritePress={() => alert('todo') }
-        isFavorite={index<2}
+        isFavorite={index<3}
         />
         )}
         keyExtractor={(item) => item.id}
